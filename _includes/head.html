@@ -10,7 +10,7 @@
     <style>
         body {
         {% if page['background_image'] %}
-            background-image: "{{ page['background_image'] }}";
+            background-image: url("{{ page['background_image'] }}");
         {% else %}
             background-image: none;
         {% endif %}
