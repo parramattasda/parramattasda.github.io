@@ -1,11 +1,17 @@
-# Site settings
+---
 title: Parramatta Seventh-Day Adventist Church
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: comms@parramattasda.org.au
 description: Know God.
-url: "http://www.parramattasda.org.au"
+url: http://www.parramattasda.org.au
 facebook_username: parramattasda
 instagram_username: parramattasda
-github_username:  parramattasda
-
-# Build settings
+github_username: parramattasda
 markdown: kramdown
