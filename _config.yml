@@ -2,16 +2,25 @@
 title: Parramatta Seventh-Day Adventist Church
 timezone: Australia/Sydney
 collections:
+  ministries:
+    title: Ministries
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-email: comms@parramattasda.org.au
-description: Know God.
-url: http://www.parramattasda.org.au
-facebook_username: parramattasda
-instagram_username: parramattasda
-github_username: parramattasda
-markdown: kramdown
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
