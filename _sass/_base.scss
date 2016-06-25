@@ -19,7 +19,10 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background: $background-color url('/img/home-bg-edit.jpg') no-repeat center center fixed;
+    background-color: $background-color;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
