@@ -3,6 +3,7 @@ title: Home
 date: 2016-06-25 20:25:00 +10:00
 position: 0
 Background Image: "/uploads/home-bg-edit.jpg"
+layout: default
 ---
 
 <div class="home">
