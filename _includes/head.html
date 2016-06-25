@@ -9,12 +9,11 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <style>
         body {
-        {% if {{ page['background_image'] }} %}
-            background-image: {{ page['background_image'] }};
+        {% if page['background_image'] %}
+            background-image: "{{ page['background_image'] }}";
         {% else %}
             background-image: none;
         {% endif %}
-            
         }
     </style>
 </head>
