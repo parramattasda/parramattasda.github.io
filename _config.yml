@@ -1,0 +1,17 @@
+---
+title: Parramatta Seventh-Day Adventist Church
+timezone: Australia/Sydney
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: comms@parramattasda.org.au
+description: Know God.
+url: http://www.parramattasda.org.au
+facebook_username: parramattasda
+instagram_username: parramattasda
+github_username: parramattasda
+markdown: kramdown
