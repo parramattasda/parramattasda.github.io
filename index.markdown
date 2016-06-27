@@ -6,6 +6,4 @@ background_image: "/uploads/home-bg-edit.jpg"
 layout: default
 ---
 
-<div class="home">
-    <div class="super-heading">Know God.</div>
-</div>
+<div class="super-heading">Know God.</div>
