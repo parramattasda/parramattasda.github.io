@@ -2,6 +2,9 @@
 title: Parramatta Seventh-Day Adventist Church
 timezone: Australia/Sydney
 collections:
+  home:
+    title: Home
+    output: true
   ministries:
     title: Ministries
     output: true
