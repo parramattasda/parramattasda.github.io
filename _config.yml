@@ -8,9 +8,6 @@ collections:
   home:
     title: Home Modules
     output: false
-  ministries:
-    title: Ministries
-    output: true
   posts:
     title: Posts
     output: true
