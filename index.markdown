@@ -9,3 +9,4 @@ layout: home
 <div class="super-heading">Know God.</div>
 
 {% include_relative index/contact.markdown %}
+{% markdown index/contact.markdown %}
