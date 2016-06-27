@@ -6,4 +6,4 @@ background_image: "/uploads/home-bg-edit.jpg"
 layout: home
 ---
 
-<div class="super-heading">Know God.</div>
+# Know God.

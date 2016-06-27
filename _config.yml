@@ -4,7 +4,7 @@ timezone: Australia/Sydney
 collections:
   home:
     title: Home
-    output: true
+    output: false
   ministries:
     title: Ministries
     output: true
