@@ -7,5 +7,3 @@ layout: home
 ---
 
 <div class="super-heading">Know God.</div>
-
-{% markdown index/contact.markdown %}
