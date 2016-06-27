@@ -3,6 +3,9 @@ parramattasda.github.io
 
 Simple website for Parramatta SDA Church, built with GitHub Pages.
 
+Fix later:
+- Dependency management (bower/gulp?)
+
 Todo:
 - Enable SSL via CF
 - Finalise template structure

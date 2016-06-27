@@ -1,11 +1,11 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% seo %}
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://use.fonticons.com/f4952d08.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Oswald:400,700">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -13,6 +13,7 @@
         body {
         {% if page['background_image'] %}
             background-image: url("{{ page['background_image'] }}");
+            background-image: linear-gradient(rgba(74,40,111,.5), rgba(74,40,111,0) 30%), url("{{ page['background_image'] }}"); /* W3C */
         {% else %}
             background-image: none;
         {% endif %}
