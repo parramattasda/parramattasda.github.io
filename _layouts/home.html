@@ -11,11 +11,13 @@ layout: home
         <div class="wrapper">
             <div class="home">
                 {{ content }}
-                {% for home in site.home %}
+                <!-- Show 'Home Modules' collection, ordered by position number -->
+                {% assign sorted_list = (site.home | sort: 'position') %}
+                {% for item in sorted_list %}
                   <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                      <h3>{{ home.title }}</h3>
-                      <p class="text-muted">{{ home.content }}</p>
+                      <h3>{{ item.title }}</h3>
+                      <div>{{ item.content }}</div>
                     </div>
                   </div>
                 {% endfor %}
