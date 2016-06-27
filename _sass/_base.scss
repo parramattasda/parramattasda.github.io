@@ -48,9 +48,30 @@ body {
     line-height: 1.05;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 80px 0 120px;
+    padding: 80px 0 20px;
 }
 
+.home h3 {
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+.home {
+  color: #f4f4f4;
+}
+
+.site-header {
+  font-size: 11px;
+}
+@include media-query-min($on-palm) {
+  .site-header {
+    font-size: 14px;
+  }
+}
 
 
 /**

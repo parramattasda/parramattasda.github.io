@@ -22,11 +22,11 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-body {
-    background: url('/img/home-bg-edit.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-}
+// body {
+//     background: url('/img/home-bg-edit.jpg') no-repeat center center fixed;
+//     background-size: cover;
+//     color: white;
+// }
 .home {
     text-align: center;
     padding-top: 30px;
@@ -58,6 +58,11 @@ body {
 // }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
+        @content;
+    }
+}
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }

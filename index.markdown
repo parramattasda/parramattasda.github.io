@@ -7,3 +7,5 @@ layout: home
 ---
 
 # Know God.
+
+We are a church passionate about living and sharing God's Message of Hope and Love.
