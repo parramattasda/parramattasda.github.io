@@ -41,7 +41,5 @@ social:
 - title: GitHub
   url: https://www.github.com/parramattasda/
   icon: fa-github-square
-
-# Build settings
 markdown: kramdown
 permalink: pretty
