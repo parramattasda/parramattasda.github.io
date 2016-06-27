@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2016-06-25 20:25:00 +10:00
-position: 1
+position: 2
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
