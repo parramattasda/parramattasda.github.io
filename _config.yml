@@ -37,12 +37,16 @@ gems:
 social:
 - title: Twitter
   url: https://www.twitter.com/parramattasda/
+  icon: fa-twitter-square
 - title: Facebook
   url: https://www.facebook.com/parramattasda/
+  icon: fa-facebook-square
 - title: Instagram
   url: https://www.instagram.com/parramattasda/
+  icon: fa-instagram
 - title: GitHub
   url: https://www.github.com/parramattasda/
+  icon: fa-github-square
 
 # Build settings
 markdown: kramdown
