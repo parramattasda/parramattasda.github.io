@@ -8,4 +8,4 @@ layout: home
 
 <div class="super-heading">Know God.</div>
 
-{% include_relative contact.html %}
+{% include_relative contact.markdown %}
