@@ -27,5 +27,5 @@ defaults:
   values:
     layout: page
 gems:
-  - jekyll-seo-tag
+- jekyll-seo-tag
 permalink: pretty
