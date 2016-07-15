@@ -8,6 +8,6 @@ layout: home
 
 # Know
 
-# God
+# God!
 
 ## We are a church passionate about living and sharing God's message of hope and love.
