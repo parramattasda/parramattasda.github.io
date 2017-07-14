@@ -2,12 +2,12 @@
 title: Parramatta Seventh-Day Adventist Church
 timezone: Australia/Sydney
 collections:
-  home:
-    title: Home
-    output: false
-  ministries:
-    title: Ministries
+  events:
+    title: Events
     output: true
+  home:
+    title: Home Modules
+    output: false
   posts:
     title: Posts
     output: true
@@ -26,4 +26,20 @@ defaults:
     type: pages
   values:
     layout: page
+gems:
+- jekyll-seo-tag
+social:
+- title: Twitter
+  url: https://www.twitter.com/parramattasda/
+  icon: fa-twitter-square
+- title: Facebook
+  url: https://www.facebook.com/parramattasda/
+  icon: fa-facebook-square
+- title: Instagram
+  url: https://www.instagram.com/parramattasda/
+  icon: fa-instagram
+- title: GitHub
+  url: https://www.github.com/parramattasda/
+  icon: fa-github-square
+markdown: kramdown
 permalink: pretty
