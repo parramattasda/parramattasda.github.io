@@ -6,7 +6,7 @@ background_image: "/uploads/home-bg-1.jpg"
 layout: home
 ---
 
-# Know
+# Trusting
 
 # God
 
